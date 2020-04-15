@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "autoclosead",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["autoclosead.js"]
+    }
+  ]
+}
